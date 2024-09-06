@@ -1,0 +1,25 @@
+.calc{
+    align-content: center;
+    width: 300px;
+    height: auto;
+}
+.output{
+    margin: 20px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    border: 1px solid black;
+  }
